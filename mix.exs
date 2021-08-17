@@ -3,11 +3,15 @@ defmodule PocketsPlatform.MixProject do
 
   def project do
     [
-      name: "Pockets Platform",
       apps_path: "apps",
       version: "0.1.0",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      aliases: aliases(),
+
+      # Docs
+      name: "Pockets Platform",
+      docs: docs()
     ]
   end
 
@@ -18,5 +22,20 @@ defmodule PocketsPlatform.MixProject do
   # Run "mix help deps" for examples and options.
   defp deps do
     []
+  end
+
+  defp docs do
+    [
+      api_reference: false,
+      extras: ["README.md"],
+      ignore_apps: apps(),
+      main: "README"
+    ]
+  end
+
+  defp apps, do: File.ls!("./apps") |> Enum.map(&String.to_atom/1)
+
+  defp aliases do
+    [docs: ["docs", "cmd mix docs"]]
   end
 end
