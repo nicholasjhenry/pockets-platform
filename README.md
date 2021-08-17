@@ -1,4 +1,7 @@
-# PocketsPlatform
+# Pockets Platform
 
-**TODO: Add description**
+## Applications
+
+* [Financial Ratios](./financial_ratios/index.html)
+
 

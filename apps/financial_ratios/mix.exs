@@ -4,7 +4,6 @@ defmodule FinancialRatios.MixProject do
   def project do
     [
       app: :financial_ratios,
-      name: "Financial Ratios",
       version: "0.1.0",
       build_path: "../../_build",
       config_path: "../../config/config.exs",
@@ -13,6 +12,10 @@ defmodule FinancialRatios.MixProject do
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+
+      # Docs
+      name: "Financial Ratios",
+      homepage_url: "../index.html",
       docs: docs()
     ]
   end
@@ -33,7 +36,8 @@ defmodule FinancialRatios.MixProject do
 
   defp docs do
     [
-      before_closing_head_tag: &before_closing_head_tag/1
+      before_closing_head_tag: &before_closing_head_tag/1,
+      output: "../../doc/financial_ratios"
     ]
   end
 
