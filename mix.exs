@@ -3,6 +3,7 @@ defmodule PocketsPlatform.MixProject do
 
   def project do
     [
+      name: "Pockets Platform",
       apps_path: "apps",
       version: "0.1.0",
       start_permanent: Mix.env() == :prod,

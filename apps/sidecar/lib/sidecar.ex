@@ -1,0 +1,2 @@
+defmodule Sidecar do
+end
