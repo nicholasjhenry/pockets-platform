@@ -1,5 +1,15 @@
 # Pockets Platform
 
+## Project Vision
+
+This is an example application to demonstrate Living Documentation patterns in Elixir.
+
+## Stakeholders
+
+* Elixir Conf Attendees
+* Elixir Developers
+* Future Consulting Clients
+
 ## Applications
 
 |                    Application                    |                                 Description                                 |
