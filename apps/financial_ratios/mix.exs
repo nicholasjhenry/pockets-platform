@@ -30,6 +30,7 @@ defmodule FinancialRatios.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:decimal, "~> 2.0"},
       {:sidecar, in_umbrella: true}
     ]
   end
