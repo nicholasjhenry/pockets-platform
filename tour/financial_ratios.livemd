@@ -1,0 +1,26 @@
+# Financial Ratios
+
+## Rate of Return
+
+> A rate of return (RoR) is the net gain or loss of an investment over a specified time period,
+> expressed as a percentage of the investment’s initial cost.
+> 
+> [Investopedia](https://www.investopedia.com/terms/r/rateofreturn.asp)
+
+The Formula for Rate of Return (RoR): $$\text{Rate of return} = [\frac{(\text{Current value} - \text{Initial value})}{\text{Initial value}}]\times 100$$
+
+## Example of a Rate of Return (RoR)
+
+> The rate of return can be calculated for any investment, dealing with any kind of asset. Let's
+> take the example of purchasing a home as a basic example for understanding how to calculate the
+> RoR. Say that you buy a house for 250,000 (for simplicity let's assume you pay 100% cash).
+> 
+> Six years later, you decide to sell the house—maybe your family is growing and you need to move
+> into a larger place. You are able to sell the house for $335,000, after deducting any realtor's
+> fees and taxes. The simple rate of return on the purchase and sale of the house is as follows:
+
+```elixir
+current_value = Decimal.new(335_000)
+initial_value = Decimal.new(250_000)
+FinancialRatios.RateOfReturn.calculate(current_value, initial_value)
+```
