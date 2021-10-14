@@ -10,6 +10,16 @@ This is an example application to demonstrate Living Documentation patterns in E
 * Elixir Developers
 * Future Consulting Clients
 
+## Business Capabilities
+
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Nam vitae condimentum erat, quis rhoncus magna.
+* Cras sagittis metus ligula, id feugiat ligula congue vitae.
+* Nunc consectetur leo bibendum massa tincidunt bibendum.
+* Duis a justo pharetra, sodales elit at, semper lectus.
+* Sed sit amet elit arcu.
+* ivamus dictum, felis in venenatis vulputate, neque orci ornare arcu, vitae eleifend velit sapien non sapien.
+
 ## Applications
 
 |                    Application                    |                                 Description                                 |
